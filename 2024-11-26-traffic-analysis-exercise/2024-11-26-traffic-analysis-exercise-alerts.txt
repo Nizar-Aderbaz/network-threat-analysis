@@ -1,0 +1,153 @@
+------------------------------------------------------------------------
+Count:2 Event#3.3860 2024-11-26 04:49:38 UTC
+ET INFO Terse Request for .txt - Likely Hostile
+10.11.26.183 -> 104.117.247.184
+IPVer=4 hlen=5 tos=0 dlen=151 ID=0 flags=0 offset=0 ttl=0 chksum=13682
+Protocol: 6 sport=53279 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=39651 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.3861 2024-11-26 04:49:38
+ET INFO Microsoft Connection Test
+10.11.26.183 -> 104.117.247.184
+IPVer=4 hlen=5 tos=0 dlen=151 ID=0 flags=0 offset=0 ttl=0 chksum=13682
+Protocol: 6 sport=53279 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=39651 chksum=0
+------------------------------------------------------------------------
+Count:57 Event#3.3862 2024-11-26 04:49:38 UTC
+ET DNS Standard query response, Name Error
+10.11.26.3 -> 10.11.26.183
+IPVer=4 hlen=5 tos=0 dlen=143 ID=9322 flags=0 offset=0 ttl=128 chksum=52516
+Protocol: 17 sport=53 -> dport=63714
+
+len=123 chksum=22955
+------------------------------------------------------------------------
+Count:97 Event#3.3868 2024-11-26 04:49:41 UTC
+ET POLICY TLSv1.0 Used in Session
+10.11.26.183 -> 4.149.227.78
+IPVer=4 hlen=5 tos=0 dlen=346 ID=0 flags=0 offset=0 ttl=0 chksum=44281
+Protocol: 6 sport=53282 -> dport=443
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=3623 chksum=0
+------------------------------------------------------------------------
+Count:16 Event#3.3883 2024-11-26 04:49:55 UTC
+ETPRO POLICY [MS-EFSR] Microsoft Encrypting File System Remote Protocol Activity - [ncacn_np] EfsRpcOpenFileRaw M1
+10.11.26.183 -> 10.11.26.3
+IPVer=4 hlen=5 tos=0 dlen=270 ID=13979 flags=2 offset=0 ttl=128 chksum=31359
+Protocol: 6 sport=53290 -> dport=445
+
+Seq=3623535135 Ack=3003726716 Off=5 Res=0 Flags=***AP*** Win=4097 urp=55814 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.3914 2024-11-26 04:50:10 UTC
+ET INFO Potentially unsafe SMBv1 protocol in use
+10.11.26.183 -> 10.11.26.3
+IPVer=4 hlen=5 tos=0 dlen=182 ID=14123 flags=2 offset=0 ttl=128 chksum=31303
+Protocol: 6 sport=53318 -> dport=139
+
+Seq=3243401234 Ack=3395647920 Off=5 Res=0 Flags=***AP*** Win=4099 urp=20426 chksum=0
+------------------------------------------------------------------------
+Count:10 Event#3.3915 2024-11-26 04:50:10 UTC
+GPL NETBIOS SMB Session Setup NTMLSSP unicode asn1 overflow attempt
+10.11.26.183 -> 10.11.26.3
+IPVer=4 hlen=5 tos=0 dlen=182 ID=14123 flags=2 offset=0 ttl=128 chksum=31303
+Protocol: 6 sport=53318 -> dport=139
+
+Seq=3243401234 Ack=3395647920 Off=5 Res=0 Flags=***AP*** Win=4099 urp=20426 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.3917 2024-11-26 04:50:10 UTC
+GPL NETBIOS SMB IPC$ unicode share access
+10.11.26.183 -> 10.11.26.3
+IPVer=4 hlen=5 tos=0 dlen=134 ID=14125 flags=2 offset=0 ttl=128 chksum=31349
+Protocol: 6 sport=53318 -> dport=139
+
+Seq=3243401616 Ack=3395648624 Off=5 Res=0 Flags=***AP*** Win=4096 urp=22822 chksum=0
+------------------------------------------------------------------------
+Count:10 Event#3.3918 2024-11-26 04:50:10 UTC
+GPL NETBIOS SMB SMB_COM_TRANSACTION Max Data Count of 0 DOS Attempt
+10.11.26.183 -> 10.11.26.3
+IPVer=4 hlen=5 tos=0 dlen=162 ID=14126 flags=2 offset=0 ttl=128 chksum=31320
+Protocol: 6 sport=53318 -> dport=139
+
+Seq=3243401710 Ack=3395648684 Off=5 Res=0 Flags=***AP*** Win=4096 urp=17919 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.3926 2024-11-26 04:50:14 UTC
+ET CURRENT_EVENTS ZPHP Domain in DNS Lookup (modandcrackedapk .com)
+10.11.26.183 -> 10.11.26.3
+IPVer=4 hlen=5 tos=0 dlen=66 ID=14168 flags=0 offset=0 ttl=128 chksum=47747
+Protocol: 17 sport=52957 -> dport=53
+
+len=46 chksum=9687
+------------------------------------------------------------------------
+Count:1 Event#3.4018 2024-11-26 04:50:40 UTC
+ET CURRENT_EVENTS ZPHP Domain in TLS SNI (modandcrackedapk .com)
+10.11.26.183 -> 193.42.38.139
+IPVer=4 hlen=5 tos=0 dlen=326 ID=0 flags=0 offset=0 ttl=0 chksum=44347
+Protocol: 6 sport=53360 -> dport=443
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=53759 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.4020 2024-11-26 04:50:45 UTC
+ET POLICY HTTP Request on Unusual Port Possibly Hostile
+10.11.26.183 -> 194.180.191.64
+IPVer=4 hlen=5 tos=0 dlen=260 ID=0 flags=0 offset=0 ttl=0 chksum=4926
+Protocol: 6 sport=53362 -> dport=443
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=65332 chksum=0
+------------------------------------------------------------------------
+Count:65 Event#3.4021 2024-11-26 04:50:45 UTC
+ET POLICY HTTP POST on unusual Port Possibly Hostile
+10.11.26.183 -> 194.180.191.64
+IPVer=4 hlen=5 tos=0 dlen=260 ID=0 flags=0 offset=0 ttl=0 chksum=4926
+Protocol: 6 sport=53362 -> dport=443
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=65332 chksum=0
+------------------------------------------------------------------------
+Count:65 Event#3.4022 2024-11-26 04:50:45 UTC
+ETPRO TROJAN NetSupport RAT CnC Activity
+10.11.26.183 -> 194.180.191.64
+IPVer=4 hlen=5 tos=0 dlen=260 ID=0 flags=0 offset=0 ttl=0 chksum=4926
+Protocol: 6 sport=53362 -> dport=443
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=65332 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.4023 2024-11-26 04:50:45 UTC
+ETPRO TROJAN Malicious NetSupport Rat CnC Checkin
+10.11.26.183 -> 194.180.191.64
+IPVer=4 hlen=5 tos=0 dlen=260 ID=0 flags=0 offset=0 ttl=0 chksum=4926
+Protocol: 6 sport=53362 -> dport=443
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=65332 chksum=0
+------------------------------------------------------------------------
+Count:65 Event#3.4024 2024-11-26 04:50:45 UTC
+ET POLICY HTTP traffic on port 443 (POST)
+10.11.26.183 -> 194.180.191.64
+IPVer=4 hlen=5 tos=0 dlen=260 ID=0 flags=0 offset=0 ttl=0 chksum=4926
+Protocol: 6 sport=53362 -> dport=443
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=65332 chksum=0
+------------------------------------------------------------------------
+Count:65 Event#3.4025 2024-11-26 04:50:45 UTC
+ET INFO NetSupport Remote Admin Checkin
+10.11.26.183 -> 194.180.191.64
+IPVer=4 hlen=5 tos=0 dlen=260 ID=0 flags=0 offset=0 ttl=0 chksum=4926
+Protocol: 6 sport=53362 -> dport=443
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=65332 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.4026 2024-11-26 04:50:45 UTC
+ET POLICY NetSupport GeoLocation Lookup Request
+10.11.26.183 -> 104.26.1.231
+IPVer=4 hlen=5 tos=0 dlen=158 ID=0 flags=0 offset=0 ttl=0 chksum=11160
+Protocol: 6 sport=53363 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=49680 chksum=0
+------------------------------------------------------------------------
+Count:4 Event#3.4027 2024-11-26 04:50:45 UTC
+ET INFO NetSupport Remote Admin Response
+194.180.191.64 -> 10.11.26.183
+IPVer=4 hlen=5 tos=0 dlen=255 ID=0 flags=0 offset=0 ttl=0 chksum=4931
+Protocol: 6 sport=443 -> dport=53362
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=77 chksum=0
+
