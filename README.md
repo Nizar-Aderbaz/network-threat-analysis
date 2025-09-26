@@ -1,7 +1,7 @@
-🕵️‍♂️ PCAP Analysis Exercises Collection
+# 🕵️‍♂️ PCAP Analysis Exercises Collection
 This repository contains a set of network traffic capture files (PCAPs), each inside its own folder with full analysis reports and documentation.
 
-📌 Focus Areas
+## 📌 Focus Areas
 Network traffic inspection
 
 Protocol behavior analysis
@@ -12,8 +12,8 @@ Identification of Indicators of Compromise (IoCs)
 
 Packet-level forensic investigation
 
-📂 Reports Format
-Each folder includes:
+## 📂 Reports Format
+### Each folder includes:
 
 capture.pcap: The raw PCAP file to analyze
 
@@ -21,9 +21,9 @@ report.pdf : Detailed analysis report with findings and explanations
 
 documentation.pdf : Supplementary documentation and methodology
 
-👨‍💻 Analyst
+## 👨‍💻 Analyst
 Created and maintained by Nizar Aderbaz
 
-🧩 Tags
+## 🧩 Tags
 #pcap #network-analysis #forensics #cybersecurity #dfir #blue-team #ioc
 
